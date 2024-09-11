@@ -32,7 +32,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>generic.ico</ApplicationIcon>
+    <ApplicationIcon>perezagruzka_mt143p4sht1w.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -79,6 +79,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="generic.ico" />
+    <Content Include="perezagruzka_mt143p4sht1w.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

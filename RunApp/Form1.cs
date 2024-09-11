@@ -87,37 +87,37 @@ namespace RunApp
                     numSecund.Value == now.Second)
             {
                 var proc1 = new ProcessStartInfo();
-                string anyCommand;
+               
                 proc1.UseShellExecute = true;
 
                 proc1.WorkingDirectory = @"C:\Windows\System32";
 
                 proc1.FileName = @"C:\Windows\System32\cmd.exe";
-                proc1.Verb = "runas";
+                //proc1.Verb = "runas";
                 string str2 = textBox1.Text;
                 int last = str2.LastIndexOf(@"\") + 1;
                 int len = str2.Length;
-                //MessageBox.Show(last.ToString());
-                //MessageBox.Show(len.ToString());
+                
 
                 string str = textBox1.Text.Substring(last, len - last);
-                //MessageBox.Show(str);
-                proc1.Arguments = "/c taskkill /IM " + str;
+                
+                proc1.Arguments = "/c taskkill /IM " + str + " /F";
                 proc1.WindowStyle = ProcessWindowStyle.Hidden;
                 Process.Start(proc1);
 
                 Thread.Sleep(2000);
 
                 var proc2 = new ProcessStartInfo();
-                string anyCommand2;
+                
                 proc2.UseShellExecute = true;
 
                 proc2.WorkingDirectory = @"C:\Windows\System32";
 
                 proc2.FileName = @"C:\Windows\System32\cmd.exe";
-                proc2.Verb = "runas";
-
-                proc2.Arguments = "/c start " + textBox1.Text;
+                //proc2.Verb = "runas";
+                string sss = "/c start \"\" \"" + textBox1.Text + "\"";
+                //MessageBox.Show(sss);
+                proc2.Arguments = sss;
                 proc2.WindowStyle = ProcessWindowStyle.Hidden;
                 Process.Start(proc2);
 
