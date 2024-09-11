@@ -1,0 +1,9 @@
+G:\projects\C#\RunApp\RunApp\bin\Debug\RunApp.exe
+G:\projects\C#\RunApp\RunApp\bin\Debug\RunApp.pdb
+G:\projects\C#\RunApp\RunApp\obj\Debug\RunApp.csproj.AssemblyReference.cache
+G:\projects\C#\RunApp\RunApp\obj\Debug\RunApp.Form1.resources
+G:\projects\C#\RunApp\RunApp\obj\Debug\RunApp.Properties.Resources.resources
+G:\projects\C#\RunApp\RunApp\obj\Debug\RunApp.csproj.GenerateResource.cache
+G:\projects\C#\RunApp\RunApp\obj\Debug\RunApp.csproj.CoreCompileInputs.cache
+G:\projects\C#\RunApp\RunApp\obj\Debug\RunApp.exe
+G:\projects\C#\RunApp\RunApp\obj\Debug\RunApp.pdb
